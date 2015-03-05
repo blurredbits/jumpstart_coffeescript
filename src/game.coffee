@@ -24,6 +24,7 @@
     @player.y = y
 
   tick: ->
+    return if not @running
     gfx.clear()
     @update()
     @render()

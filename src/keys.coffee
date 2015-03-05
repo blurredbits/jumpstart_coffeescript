@@ -20,8 +20,8 @@ keys =
 
 document.addEventListener "keydown", (e) ->
   keys.trigger e.keyCode, true
-, false
+,false
 
 document.addEventListener "keyup", (e) ->
   keys.trigger e.keyCode, false
-, false
+,false
